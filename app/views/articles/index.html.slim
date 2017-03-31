@@ -1,0 +1,17 @@
+h2 We Love The Star Warses
+
+ul
+  - @articles.each do |a|
+    li.entry
+      div.title
+        | Title: 
+        == a.title
+      div.quote
+        | Quote: 
+        = a.text
+    - if a.title == "Yoda"
+      p#yodaspeak 
+        |
+          Yoda hath spoken!
+
+img src="Yoda.png"

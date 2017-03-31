@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.classname {
+  color: blue
+}
+
+#idname {
+  font-family: courier
+}
